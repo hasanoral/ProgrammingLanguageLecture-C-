@@ -1,0 +1,58 @@
+go<*>;
+if<*> make<kerem>;
+go<kerem>;
+if<*> { make<hasan>; go<hasan>;}
+go<*/*>;
+if<*> make<dosya1>;
+if<*> { make <dosya2>;
+	go<dosya2>;}
+make<ifdosyasi1>;
+
+make<hasan_Oral>;
+if<hasan_Oral> make<project>;
+if<hasan_Oral>{make<project2>;
+go<project2>;}
+
+if<hatali> make<HataliDosya1>;
+
+if<hatali>{ make<HataliDosya2>;
+go<HataliDosya2>;
+}
+make <juventus/*/hi>;
+
+ifnot<dosya77> make<dogru1>;
+ifnot<dosya77> {make<dogru2>;
+go<dogru2>;
+make<dogru3/dogru4>;}
+make <dosya3>;
+ifnot<dosya3> make<yanlis1>;
+make<dosya4>;
+ifnot<dosya3> { make<yanlis2>;
+go<yanlis2>;
+}
+make<buraya/geldiysen/dogru>;
+
+ifnot<*> make<bozuk1>;
+ifnot<*> {make <bozuk2>};
+go<*/*>;
+make<dosya5>;
+
+ifnot<*> make<yapilmayacak1>;
+ifnot<*> { make<yapilmayacak2>;
+go<yapilmayacak2>;
+make<a/b/c>;
+}
+make <c.maske>;
+make <dosya6>;
+if<dosya6>{make<icice>;
+if<icice> make<dosya7>;
+}
+make <dosya8>;
+make <hamit>;
+Make<HAMIT>;
+make<1231kapi>;
+make<hi/*/there>;
+make</*/*/dosya9>;
+make<*/dosya10>;
+make< dosya 11 >;
+
